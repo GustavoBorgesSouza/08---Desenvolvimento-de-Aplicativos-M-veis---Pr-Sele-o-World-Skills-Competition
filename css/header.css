@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252B42;
+
+}
+
+.container_header{
+    width: 1200px;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+
+.logo{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    height: 100%;
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.autenticacao{
+    height: 100%;
+    margin-left: 230px;
+    width: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.autenticacao a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cadastro{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #23A6F0;
+    border-radius: 4%;
+}
+
+.cadastro a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cadastro img{
+    width: 20px;
+    height: 20px;
+}
+
+@media(max-width: 420px){
+    .container_header{
+        width: 80vw;
+    }
+
+}
